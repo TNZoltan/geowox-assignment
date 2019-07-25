@@ -1,0 +1,68 @@
+/* Layout */
+
+$topHeight: 8rem;
+$topHeightTablet: 14rem;
+
+$tabletSize: 991px;
+$mobileSize: 768px;
+
+.top {
+  @media screen and (min-width: $tabletSize) {
+    height: $topHeight;
+  }
+  @media screen and (max-width: $tabletSize) and (min-width: $mobileSize) {
+    height: $topHeightTablet;
+  }
+}
+
+.content {
+  @media screen and (min-width: $tabletSize) {
+    height: calc(100vh - #{$topHeight} - 20px);
+    .details {
+      height: calc(100vh - #{$topHeight} - 20px);
+      overflow-y: auto;
+    }
+  }
+  @media screen and (max-width: $tabletSize) and (min-width: $mobileSize) {
+    height: calc(100vh - #{$topHeightTablet} - 20px);
+    .details {
+      height: calc(100vh - #{$topHeightTablet} - 20px);
+      overflow-y: auto;
+    }
+  }
+  @media screen and (max-width: $mobileSize) {
+    .map {
+      height: 400px;
+    }
+  }
+}
+
+/* Formatting */
+
+.dark-blue {
+  color: #4197c8;
+}
+
+.blue {
+  color: #7bb4d7;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pie-desc {
+  display: inline-block;  
+}
+
+#root .pie {   
+  display: inline-block;
+  svg {
+    height: 4rem;
+    width: 6rem;  
+  }
+}

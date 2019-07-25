@@ -1,0 +1,6 @@
+[
+  { "value": "TERRACED", "label": "Terraced", "color": "red" },
+  { "value": "DETACHED", "label": "Detached", "color": "blue"  },
+  { "value": "SEMI-DETACHED", "label": "Semi-detached", "color": "orange"  },
+  { "value": "APARTMENT", "label": "Apartment", "color": "green"  }
+]
