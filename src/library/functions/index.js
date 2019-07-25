@@ -12,5 +12,5 @@ export const isBounded = (top, left,
 }
 
 export const sameCoordinates = (a, b) => {
-  return a.lat === b.lat && a.lon && b.lon
+  return a.lat === b.lat && a.lon === b.lon
 }
