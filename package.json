@@ -11,7 +11,7 @@
     "react-dom": "^16.8.6",
     "react-dropdown": "^1.6.4",
     "react-minimal-pie-chart": "^4.2.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
